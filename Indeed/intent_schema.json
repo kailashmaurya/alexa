@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "jobname",
+          "type": "AMAZON.ProfessionalType"
+        },
+        {
+          "name": "location",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "SearchIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

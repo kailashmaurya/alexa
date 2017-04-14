@@ -1,0 +1,10 @@
+SearchIntent find {jobname} jobs in {location}
+SearchIntent search for {jobname} jobs in {location}
+SearchIntent look for {jobname} jobs in {location}
+SearchIntent give me {jobname} jobs in {location}
+SearchIntent email me {jobname} jobs in {location}
+SearchIntent find {jobname} in {location}
+SearchIntent search for {jobname} in {location}
+SearchIntent look for {jobname} in {location}
+SearchIntent give me {jobname} in {location}
+SearchIntent email me {jobname} in {location}

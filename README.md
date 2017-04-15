@@ -17,6 +17,6 @@ Also, the various parameters(called slots) along with their type are definied in
 # sample_utterances.txt
 Holds all possible utterances that a user can speak to interact with the skill. Also, notice that the slot parameters are also defined in the utterance statements. These slots define variables that the user can speak while interacting with alexa.
 
-# PHP Backend Script
+# get_from_indeed.php
 Receives job and location from the lambda function, prepares the Indeed API request, gets the search result.<br>
 Converts xml to json and prepares email body, sends search results in an email to the user, returns response json to lambda function.

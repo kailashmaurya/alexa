@@ -20,3 +20,12 @@ Holds all possible utterances that a user can speak to interact with the skill. 
 # get_from_indeed.php
 Receives job and location from the lambda function, prepares the Indeed API request, gets the search result.<br>
 Converts xml to json and prepares email body, sends search results in an email to the user, returns response json to lambda function.
+<br>
+<br>
+The following is a screenshot of the Alexa app which syncs with the Amazon development account and displays the queries spoken and response received
+<br>
+<br>
+<img src="https://github.com/kailashmaurya/alexa/blob/master/Indeed/Alexa%20app%20screenshots/Screenshot_2.png"  width="300px" style="margin-right: auto; margin-left: auto;">
+<br>
+<br>
+The query spoken to Alexa is the one displayed in quotes and the voice response given by Alexa is "I emailed 10 results for ...".
